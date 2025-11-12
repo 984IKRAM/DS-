@@ -1,1 +1,31 @@
 
+1. Contexte général
+
+Le dataset étudié provient de campagnes de marketing direct menées par une institution bancaire portugaise. Ces campagnes consistaient à contacter les clients par téléphone afin de leur proposer un dépôt à terme (produit bancaire).
+L’objectif de cette base de données est de prédire si un client souscrira ou non à ce dépôt à terme, représenté par la variable cible “y”, qui prend deux valeurs possibles : “yes” (le client souscrit) ou “no” (le client ne souscrit pas).
+
+2. Type et caractéristiques du dataset
+
+Type de dataset : Multivarié
+
+Domaine d’application : Business / Marketing bancaire
+
+Tâche associée : Classification
+
+Type de variables : Catégorielles et entières (categorical, integer)
+
+Nombre total d’instances : 45 211
+
+Nombre de variables explicatives (features) : 16
+
+3. Description des données
+
+Les données regroupent plusieurs informations sur les clients et sur les caractéristiques des campagnes téléphoniques.
+Il est à noter que plusieurs appels pouvaient être nécessaires pour un même client afin d’évaluer son intérêt pour le produit proposé.
+
+
+
+4. Objectif de l’étude
+
+L’objectif principal est de développer un modèle de classification supervisée capable de prédire la probabilité qu’un client accepte de souscrire à un dépôt à terme, en se basant sur les caractéristiques socio-économiques et les données de la campagne téléphonique.
+
